@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+require 'nmax'
+
+EXAMPLE_USAGE = 'Example usage: cat PATH_TO_FILE | nmax NUMBERS_COUNT'
+
+numbers_count = ARGV.first.to_i
+
+if numbers_count < 1
+  puts "Argument is missing or invalid. #{EXAMPLE_USAGE}"
+elsif STDIN.tty?
+  puts "Input is empty. #{EXAMPLE_USAGE}"
+else
+  puts Nmax.find_numbers(STDIN, numbers_count)
+end
