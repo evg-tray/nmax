@@ -4,8 +4,6 @@ Search N maximum numbers in the input stream.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
 ```
 git clone git@github.com:evg-tray/nmax.git
 cd nmax
