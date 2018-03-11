@@ -1,5 +1,7 @@
 # Nmax
 
+[![Build Status](https://travis-ci.org/evg-tray/nmax.svg?branch=master)](https://travis-ci.org/evg-tray/nmax)
+
 Search N maximum numbers in the input stream.
 
 ## Installation
